@@ -1,0 +1,38 @@
+/* Validaton Form Stylesheet */
+
+html,body {
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  background-color: blueviolet;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.6;
+}
+
+.form input {
+  border-radius: 5px;
+  border: 1px solid darkslateblue;
+  padding: 5px;
+  background: darkslateblue;
+  color: white;
+}
+
+
+.btn-bloc button {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: 1px solid darkslateblue;
+  padding: 8px;
+  background: darkslateblue;
+  color: white;
+  cursor: pointer;
+} 

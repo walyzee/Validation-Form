@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Forms</title>
+  </head>
+  <body>
+    <header></header>
+    <main class="form-container">
+      <form id="validform" class="form">
+        <div>
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="First name"><br>
+        </div>
+        <div>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="Last name"><br>
+        </div>
+        <div>
+          <label for="adress">Adress:</label><br>
+          <input type="text" id="adress" name="Adress"><br>
+        </div>
+        <div>
+          <label for="mail">Email:</label><br>
+          <input type="text" id="mail" name="E-mail"><br>
+        </div>
+        <div>
+          <label for="password">Password:</label><br>
+          <input type="text" id="password" name="Password"><br><br>
+        </div>
+        <div class="btn-bloc">
+          <button onclick="submitform()">Submit</button>
+          <button onclick="resetform()">Reset</button>
+        </div>
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+  <footer>
+    <script src="js/script.js"></script>
+  </footer>
+</html>
